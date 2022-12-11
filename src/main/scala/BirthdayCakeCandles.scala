@@ -12,6 +12,7 @@ object BirthdayCakeCandles {
     println(birthdayCakeCandles(arr))
   }
 
+  /** Solution */
   def birthdayCakeCandles(candles: Array[Int]): Int = {
     val maxSize = candles.max
     candles.count(_ == maxSize)
